@@ -17,13 +17,11 @@ obj-$(CONFIG_IOSCHED_DEADLINE)	+= deadline-iosched.o
 obj-$(CONFIG_IOSCHED_ROW)	+= row-iosched.o
 obj-$(CONFIG_IOSCHED_CFQ)	+= cfq-iosched.o
 obj-$(CONFIG_IOSCHED_TEST)	+= test-iosched.o
-<<<<<<< HEAD
 obj-$(CONFIG_IOSCHED_SIO)   	+= sio-iosched.o
 obj-$(CONFIG_IOSCHED_FIOPS)     += fiops-iosched.o
 obj-$(CONFIG_IOSCHED_ZEN)	+= zen-iosched.o
 obj-$(CONFIG_IOSCHED_FIFO)	+= fifo-iosched.o
-=======
->>>>>>> 1835f7675db4ec7572f15a611778c079be9644f2
+
 
 obj-$(CONFIG_BLOCK_COMPAT)	+= compat_ioctl.o
 obj-$(CONFIG_BLK_DEV_INTEGRITY)	+= blk-integrity.o
